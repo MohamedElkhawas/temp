@@ -1,0 +1,183 @@
+@media screen  and (max-width: 1000px){
+	.container {
+		width: 80% !important;
+
+	}
+	.fixed-nav {
+		width:100% !important;
+		border:1px solid;
+		height: 100px !important;
+	}
+	.search-part {
+		width: 40% !important;
+		height: 50px !important;	
+		
+	}
+	.social-part {
+		width:50% !important;
+		margin-left: 0px !important;
+	}
+	.user-part {
+		width:50% !important;
+		float: right !important;
+    }
+	
+	.user-part	a{
+		font-size: 20px !important;
+		margin-right: 20px !important;
+	}
+	
+}
+@media screen  and (max-width: 500px){
+	.side-cat {
+		display:none !important;
+	}
+	.header {
+		font-size: 25px !important;
+	}
+	.container {
+		width: 100% !important;
+	}
+	.fixed-nav {
+		width: 100% !important;
+		height: 150px !important;
+	}
+	.search-part {
+		width: 100% !important;
+		height: 50px !important;
+	}
+	.social-part {
+		width: 150px !important;
+        height: 50px !important;
+        margin: -5px 0px 0px -15px !important;
+        display: flex;
+
+	}
+	.social-part a{
+		margin-right: 5px !important;
+	}
+	.user-part {
+		width: 60% !important;
+        height: 20px !important;
+        margin: -40px 0px 0px 213px !important;
+        display: flex;
+	}
+	.user-part a {
+		float: left !important;
+	}
+	
+}
+
+
+
+@media (max-width: 767px) {
+    
+    .container{
+        width: 100%;
+    }
+    .user-part p{
+        margin: -20px 0px 0px 18px !important;
+    }
+	
+    .hovereffect{
+        margin: 5px 0px 0px 28px !important;
+        width: 250px !important;
+    }
+    .hovereffect img{
+        width: 400px;
+    }
+    .overlay{
+        width: 88% !important;
+        height: 100% !important;
+        position: absolute !important;
+    }
+    #content #more{
+        margin: 45px 50px 0px 0px !important;
+    }
+    .img-responsive{
+        width: 80% !important;
+    }
+    #sec{
+        width: 90% !important;
+    }
+    #shops #more{
+        margin: 5px 20px 5px 0px;
+    }
+    #shops{
+        background-color: white !important;
+    }
+    #contact{
+        width: 225px !important;
+    background-color: white !important;
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+    .container{
+        width: 100%;
+    }
+    
+    .hovereffect{
+        margin: 5px 0px 0px 82px !important;
+        width: 400px !important;
+    }
+    .hovereffect img{
+        width: 400px;
+    }
+    .overlay{
+        width: 400px;
+        height: 100%;
+        position: absolute;
+    }
+    #content #more{
+        margin: 17px 34px 3px 24px !important;
+    }
+    .img-responsive{
+        width: 20%;
+    }
+    #shops{
+        background-color: white !important;
+    }
+    #shops #more{
+        margin: 5px 20px 5px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+    .container{
+        width: 100%;
+    }
+    
+    .hovereffect{
+        margin: 5px 0px 0px 82px !important;
+        width: 400px !important;
+    }
+    .hovereffect img{
+        width: 400px;
+    }
+    .overlay{
+        width: 400px;
+        height: 100%;
+        position: absolute;
+    }
+    #content #more{
+        margin: 355px 60px 0px -13px !important;
+    }
+    .img-responsive{
+        width: 85% ;
+    }
+    #shops #more{
+        margin: 5px 20px 5px 0px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        width: 100%;
+    }
+}
+
+
